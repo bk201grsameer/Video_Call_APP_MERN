@@ -75,6 +75,8 @@ io.on("connection", (socket) => {
 
     });
 
+
+
     socket.on('candidate', ({ candidate, phonenumber }) => {
         try {
             io.to(phonenumber).emit('candidate', ({ candidate }));
@@ -84,9 +86,6 @@ io.on("connection", (socket) => {
     });
     socket.on('hangup', ({ phonenumber }) => {
         try {
-
-            if (!phonenumber)
-                throw new Error("SOMETHING WENT WRONG");
             if (incallMap.has(socket.id))
                 incallMap.delete(socket.id);
             io.to(phonenumber).emit('hangup', { from: socket.id });

@@ -2,17 +2,26 @@
 
 This is a simple video call application built using WebRTC (Web Real-Time Communication) and Node.js as the signaling server. The app allows users to make video calls to each other by selecting phone numbers from a list and provides basic call management features.
 
+
+## Screen Shot
+![Screenshot 1](app.png)
+
 ## Table of Contents
 
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the App](#running-the-app)
-- [WebRTC Overview](#webrtc-overview)
-- [Signaling Server](#signaling-server)
-- [Future Improvements](#future-improvements)
-- [License](#license)
+- [Simple WebRTC Video Call App with Node.js Signaling Server](#simple-webrtc-video-call-app-with-nodejs-signaling-server)
+  - [Screen Shot](#screen-shot)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+    - [Running the App](#running-the-app)
+  - [WebRTC Overview](#webrtc-overview)
+  - [Signaling Server](#signaling-server)
+  - [Future Improvements](#future-improvements)
+  - [Calling Image](#calling-image)
+  - [Incall Image](#incall-image)
+  - [License](#license)
 
 ## Features
 
@@ -102,6 +111,12 @@ This simple video call app can be further enhanced by adding the following featu
 - **Screen sharing**: Add the ability to share screens during a call.
 
 - **Call recording**: Implement call recording functionality.
+
+## Calling Image
+![Alt text](Calling.png)
+
+## Incall Image
+![Alt text](Incall.png)
 
 ## License
 

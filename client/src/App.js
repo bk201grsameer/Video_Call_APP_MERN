@@ -1,11 +1,11 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import CallPage from './Components/Screen/Call/CallPage';
-import HomePage from './Components/Screen/Home/HomePage';
+import './App.css';
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Routes>
         <Route exact path="/" element={<CallPage />} />
         {/* <Route exact path="/callpage" element={<CallPage />} /> */}
