@@ -113,7 +113,7 @@ This simple video call app can be further enhanced by adding the following featu
 - **Call recording**: Implement call recording functionality.
 
 ## Calling Image
-![Alt text](Calling.png)
+![Alt text](calling.png)
 
 ## Incall Image
 ![Alt text](Incall.png)
