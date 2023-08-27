@@ -43,13 +43,13 @@ This is a simple video call application built using WebRTC (Web Real-Time Commun
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/yourusername/simple-webrtc-video-call-app.git
+   git clone https://github.com/bk201grsameer/Video_Call_APP_MERN.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd simple-webrtc-video-call-app
+   cd Video_Call_APP_MERN
    ```
 
 3. Install the required npm packages:
